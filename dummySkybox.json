@@ -2,7 +2,7 @@
   
   "boxName":"dummy movie box",
 
-[
+"data": [
   {
     "title": "Breaking Bad",
     "poster": "breaking_bad.jpg",
