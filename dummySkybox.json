@@ -1,20 +1,8 @@
-{ "boxName":"dummy movie box",
+{ 
+  
+  "boxName":"dummy movie box",
+
 [
-  {
-    "title": "Inception",
-    "poster": "inception.jpg",
-    "media": [
-      {
-        "title": "Inception",
-        "poster": "thumb_inception.png",
-        "quality": [
-          "480p",
-          "1080p"
-        ],
-        "link": "https://example.com/inception.m3u8"
-      }
-    ]
-  },
   {
     "title": "Breaking Bad",
     "poster": "breaking_bad.jpg",
@@ -38,25 +26,59 @@
               "1080p"
             ],
             "link": "https://example.com/breaking_bad_ep2.m3u8"
+          },
+          {
+            "title": "Episode 3 - And the Bag's in the River",
+            "poster": "thumb_bb_ep3.png",
+            "quality": [
+              "720p",
+              "1080p"
+            ],
+            "link": "https://example.com/breaking_bad_ep3.m3u8"
           }
         ]
       }
     ]
   },
   {
-    "title": "Avengers: Endgame",
-    "poster": "endgame.jpg",
+    "title": "Inception",
+    "poster": "inception.jpg",
     "media": [
       {
-        "title": "Avengers: Endgame",
-        "poster": "thumb_endgame.png",
-        "quality": [
-          "480p",
-          "1080p",
-          "4K"
-        ],
-        "link": "https://example.com/endgame.m3u8"
+        "episodes": [
+          {
+            "title": "Inception",
+            "poster": "thumb_inception.png",
+            "quality": [
+              "480p",
+              "1080p"
+            ],
+            "link": "https://example.com/inception.m3u8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "dark_knight.jpg",
+    "media": [
+      {
+        "episodes": [
+          {
+            "title": "The Dark Knight",
+            "poster": "thumb_dark_knight.png",
+            "quality": [
+              "720p",
+              "1080p",
+              "4K"
+            ],
+            "link": "https://example.com/dark_knight.m3u8"
+          }
+        ]
       }
     ]
   }
-] }
+]
+
+}
