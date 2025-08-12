@@ -1,1 +1,62 @@
 
+[
+  {
+    "title": "Inception",
+    "poster": "inception.jpg",
+    "media": [
+      {
+        "title": "Inception",
+        "poster": "thumb_inception.png",
+        "quality": [
+          "480p",
+          "1080p"
+        ],
+        "link": "https://example.com/inception.m3u8"
+      }
+    ]
+  },
+  {
+    "title": "Breaking Bad",
+    "poster": "breaking_bad.jpg",
+    "media": [
+      {
+        "episodes": [
+          {
+            "title": "Episode 1 - Pilot",
+            "poster": "thumb_bb_ep1.png",
+            "quality": [
+              "720p",
+              "1080p"
+            ],
+            "link": "https://example.com/breaking_bad_ep1.m3u8"
+          },
+          {
+            "title": "Episode 2 - Cat's in the Bag",
+            "poster": "thumb_bb_ep2.png",
+            "quality": [
+              "720p",
+              "1080p"
+            ],
+            "link": "https://example.com/breaking_bad_ep2.m3u8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Avengers: Endgame",
+    "poster": "endgame.jpg",
+    "media": [
+      {
+        "title": "Avengers: Endgame",
+        "poster": "thumb_endgame.png",
+        "quality": [
+          "480p",
+          "1080p",
+          "4K"
+        ],
+        "link": "https://example.com/endgame.m3u8"
+      }
+    ]
+  }
+]
